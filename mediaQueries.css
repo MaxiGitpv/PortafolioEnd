@@ -1,0 +1,63 @@
+/* RESPONSEBLEL */
+
+@media only screen and (min-width: 768px) {
+  .nav-menu {
+    justify-content: center;
+    flex-direction: row;
+  }
+  .hero-content p {
+    justify-content: center;
+  }
+  .container4 > .estudios {
+    justify-content: center;
+  }
+  .container5 > .habilidades {
+    justify-content: center;
+  }
+
+  .hero .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 65px 10px;
+  }
+
+  .caja {
+    display: flex;
+    justify-content: center;
+  }
+  .hero-image {
+    width: 221px;
+    height: 488px;
+    padding: 193px 0px 120px 0px;
+  }
+
+  .hero-image img {
+    width: 229px;
+    height: 155%;
+    object-fit: cover;
+    border-radius: 30%;
+  }
+
+  .caja2 {
+    display: flex;
+    justify-content: center;
+  }
+  .hability h2:nth-child(1) {
+    text-align: center;
+  }
+  .portafolio {
+    justify-content: space-evenly;
+  }
+
+  .hero {
+    min-height: 90vh;
+    background-image: url("./img/Estructura\ home\ desktop.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+}
+
+/* 360  */
